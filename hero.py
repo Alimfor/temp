@@ -1,9 +1,2 @@
-hero = {
-    "age": 40,
-    "hp": 100,
-    "damage": 20,
-    "stomina": 200,
-    "is_king": True
-}
-
-print("Выносливость: ", hero["stomina"])
+def create_hero(data):
+    return f"{data['name']} — {data['class']} HP: {data['hp']}"
